@@ -3,7 +3,9 @@ import { FaTools, FaFan, FaThermometerHalf } from 'react-icons/fa';
 
 export default function Services() {
   return (
-    <section className="p-4 sm:p-8 bg-gray-100 text-center">
+    <section className="p-4  py-8 sm:p-8 bg-gray-100 text-center">
+      
+      <div className="max-w-7xl mx-auto">
       <h2 className="text-4xl font-bold mb-10">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white shadow-lg p-6 rounded-lg">
@@ -24,6 +26,7 @@ export default function Services() {
           <h3 className="text-2xl font-bold mb-2">Heating Systems</h3>
           <p>Stay warm with our heating system repair and installation services.</p>
         </div>
+      </div>
       </div>
     </section>
   );
