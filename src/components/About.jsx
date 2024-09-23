@@ -6,7 +6,7 @@ export default function About() {
         <p className="text-lg mb-8">
           We are a trusted AC repair and maintenance company with over 10 years of experience in keeping homes and businesses cool. Our expert technicians are dedicated to providing the highest quality service and customer satisfaction.
         </p>
-        <img src="/images/ac-banner.webp" alt="About Us" className="w-full h-56 sm:h-96 object-fill rounded-lg" />
+        <img src="/images/ac-banner.webp" alt="About Us" className="w-full h-56 sm:h-96 md:h-[500px] object-fill rounded-lg" />
         </div>
       </section>
     );
